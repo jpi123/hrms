@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="HRMS_Automation_Script">
+        <methods>
+          <include name="setup"/>
+          <include name="employeeLogin"/>
+          <include name="adminattendanceapprove"/>
+          <include name="EmployeeStatusCheck"/>
+          <include name="addnewemployee"/>
+          <include name="adminacceptLeave"/>
+          <include name="EmpCLLeaveCheck"/>
+          <include name="end"/>
+          <include name="empApplyLeave"/>
+          <include name="employeeAddAttendance"/>
+          <include name="ChangeEmpStatus"/>
+          <include name="Beforemethod"/>
+        </methods>
+      </class> <!-- HRMS_Automation_Script -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
